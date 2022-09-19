@@ -1,6 +1,6 @@
 <template>
   <i>
-   <div>
+   <div class="pocetna">
     <h1>
         Istra sportske dvorane
     </h1>
@@ -25,7 +25,7 @@ export default {
       this.$router.push("/Raspored")
     },
     trazidvorana() {
-      this.$router.push("/Zatrazidvorane")
+      this.$router.push("/Zatrazidvoranu")
     }
   }
 }
@@ -33,10 +33,10 @@ export default {
 
 <style>
   i {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Inter", inter;
+  font-family: "Italic", Italic;
   color: whitesmoke;
   outline-color: rgb(92, 92, 92);
   height: 0.1px;
@@ -51,5 +51,8 @@ export default {
   background-size: cover;
   width: 100%;
   height: 100%;
+  }
+  .pocetna{
+    border: 4px red solid;
   }
 </style>

@@ -2,12 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Sportskedvorane from "../views/Sportskedvorane.vue"
 import Zatrazidvoranu from "../views/Zatrazidvoranu.vue"
+import Login from "../views/Login.vue"
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Login',
+    component: Login
   },
   {
     path: '/Raspored',
@@ -21,8 +22,13 @@ const routes = [
   },
   {
     path: '/Zatrazidvoranu',
-    name: Zatrazidvoranu,
+    name: 'Zatrazidvoranu',
     component: Zatrazidvoranu
+  },
+  {
+    path: '/HomeView',
+    name: 'HomeView',
+    component: HomeView
   }
 ]
 

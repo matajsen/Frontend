@@ -1,9 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/HomeView">Home</router-link> |
     <router-link to="/Raspored">Raspored</router-link>  |
     <router-link to="/Sportskedvorane">Sportskedvorane</router-link>  |
-    <router-link to="/Zatrazidvoranu">Zatrazi dvoranu</router-link>
+    <router-link to="/Zatrazidvoranu">Zatrazi dvoranu</router-link> |
+    <router-link to="/">Login</router-link>
     <router-view/>
   </nav>
 </template>
