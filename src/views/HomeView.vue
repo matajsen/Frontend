@@ -1,9 +1,7 @@
 <template>
   <i>
-   <div class="pocetna">
-    <h1>
-        Istra sportske dvorane
-    </h1>
+    <div class="pocetna">
+      <h1>Istra sportske dvorane</h1>
       <div class="dugmi">
         <button class="dugme" @click="sportdvorana">Sportske dvorane</button>
         <button class="dugme" @click="rasp">Raspored</button>
@@ -13,30 +11,32 @@
   </i>
 </template>
 
-
 <script>
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   methods: {
     sportdvorana() {
-      this.$router.push("/Sportskedvorane")
+      this.$router.push("/Sportskedvorane");
     },
     rasp() {
-      this.$router.push("/Raspored")
+      this.$router.push("/Raspored");
     },
     trazidvorana() {
-      this.$router.push("/Zatrazidvoranu")
-    }
-  }
-}
+      this.$router.push("/Zatrazidvoranu");
+    },
+  },
+};
 </script>
 
 <style>
-  i {
+h1 {
+  font-size: 50px;
+}
+i {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Italic", Italic;
+  font-family: "normal", normal;
   color: whitesmoke;
   outline-color: rgb(92, 92, 92);
   height: 0.1px;
@@ -51,8 +51,10 @@ export default {
   background-size: cover;
   width: 100%;
   height: 100%;
-  }
-  .pocetna{
-    border: 4px red solid;
-  }
+}
+.dugme {
+  margin: 0 100px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
 </style>

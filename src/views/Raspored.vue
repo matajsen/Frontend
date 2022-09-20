@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>Raspored igranja po terenima</h1>
+  <!-- <div class="about">
+    <h1>Raspored igranja po dvoranama</h1>
     <table class="table">
   <thead>
     <tr>
@@ -38,7 +38,7 @@
     </tr>
   </tbody>
 </table>
-  </div>
+  </div> -->
 <button class="dugme2" @click="HomeView">Home</button>
 </template>
 
