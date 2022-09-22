@@ -3,9 +3,15 @@
     <div class="pocetna">
       <h1>Istra sportske dvorane</h1>
       <div class="dugmi">
-        <button class="dugme" @click="sportdvorana">Sportske dvorane</button>
-        <button class="dugme" @click="rasp">Raspored</button>
-        <button class="dugme" @click="trazidvorana">Zatrži dvoranu</button>
+        <button class="dugme" @click="sportdvorana">
+          Rezerviraj sportsku dvoranu
+        </button>
+        <button class="dugme" @click="rasp">
+          Raspored rezervacija po ekipama
+        </button>
+        <button class="dugme" @click="trazidvorana">
+          Raspored rezervacija po dvoranama
+        </button>
       </div>
     </div>
   </i>
@@ -53,8 +59,12 @@ i {
   height: 100%;
 }
 .dugme {
-  margin: 0 100px;
+  margin: 200px 100px;
   border: 1px solid grey;
+  border-radius: 8px;
+}
+h1 {
+  border: inset grey 3px;
   border-radius: 8px;
 }
 </style>

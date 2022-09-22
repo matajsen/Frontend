@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="red">
     <div
       class="modal fade"
       id="exampleModal"
@@ -63,7 +63,7 @@
       <img :src="teren.slika" class="card-img-top" alt="zatika" />
       <div class="card-body">
         <h5 class="card-title">{{ teren.naziv }}</h5>
-        <p class="card-text"></p>
+        <p class="card-text">{{ teren.mjesto }}</p>
         <button
           type="button"
           class="btn btn-primary"
@@ -76,6 +76,7 @@
       </div>
     </div>
   </div>
+  <button class="dugme2" @click="HomeView">Home</button>
 </template>
 
 <script>
@@ -110,14 +111,6 @@ export default {
 </script>
 
 <style>
-.dis {
-  display: flex;
-  margin: 10px 0;
-  width: 0 auto;
-}
-.dis1 {
-  display: block;
-}
 .card {
   margin: 0 auto;
 }
@@ -134,5 +127,9 @@ export default {
 .pick {
   margin: 0 auto;
   padding: 10px 0;
+}
+.red {
+  flex-wrap: wrap;
+  display: flex;
 }
 </style>

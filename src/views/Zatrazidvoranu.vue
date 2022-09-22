@@ -79,4 +79,7 @@ export default {
   bottom: 50px;
   margin: 15px;
 }
+.about {
+  margin: 40px;
+}
 </style>
