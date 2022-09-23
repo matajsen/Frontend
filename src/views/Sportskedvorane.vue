@@ -119,7 +119,6 @@ export default {
   border: grey;
   background-color: white;
   border: 1px solid grey;
-  position: fixed;
   right: 30px;
   bottom: 50px;
   margin: 15px;

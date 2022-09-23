@@ -39,28 +39,30 @@
   </tbody>
 </table>
   </div> -->
-<button class="dugme2" @click="HomeView">Home</button>
+  <button class="dugme2" @click="HomeView">Home</button>
 </template>
 
 <script>
 export default {
   methods: {
-        HomeView() {
-            this.$router.push('/HomeView')
-        }
-    }
-}
+    HomeView() {
+      this.$router.push("/HomeView");
+    },
+  },
+};
 </script>
 
 <style>
-.dugme2{
-        border-radius: 8px;
-        border: grey;
-        background-color: white;
-        border: 1px solid grey;
-        position: fixed;
-        right: 30px;
-        bottom: 50px;
-        margin: 15px;
-    }
+.dugme2 {
+  border-radius: 8px;
+  border: grey;
+  background-color: white;
+  border: 1px solid grey;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  margin: 15px;
+  width: 10%;
+  height: 5%;
+}
 </style>

@@ -7,7 +7,7 @@
         id="floatingInput"
         placeholder="name@example.com"
       />
-      <label for="floatingInput">Email address</label>
+      <label for="floatingInput">E-mail</label>
     </div>
     <div class="form-floating">
       <input
@@ -16,7 +16,7 @@
         id="floatingPassword"
         placeholder="Password"
       />
-      <label for="floatingPassword">Password</label>
+      <label for="floatingPassword">Lozinka</label>
     </div>
     <button class="dugme1" @click="HomeView">Prijavi se</button>
   </div>
@@ -47,5 +47,10 @@ export default {
   position: fixed;
   left: 550px;
   margin: 15px;
+  width: 10%;
+  height: 5%;
+}
+.lig {
+  margin: 200px 0;
 }
 </style>

@@ -6,12 +6,7 @@
         <button class="dugme" @click="sportdvorana">
           Rezerviraj sportsku dvoranu
         </button>
-        <button class="dugme" @click="rasp">
-          Raspored rezervacija po ekipama
-        </button>
-        <button class="dugme" @click="trazidvorana">
-          Raspored rezervacija po dvoranama
-        </button>
+        <button class="dugme" @click="rasp">Raspored igranja</button>
       </div>
     </div>
   </i>
@@ -62,6 +57,8 @@ i {
   margin: 200px 100px;
   border: 1px solid grey;
   border-radius: 8px;
+  width: 200px;
+  height: 50px;
 }
 h1 {
   border: inset grey 3px;

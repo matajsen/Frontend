@@ -1,21 +1,39 @@
 <template>
   <div>
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Odaberi sportsku dvoranu</option>
-      <option value="1">Žatika</option>
-      <option value="2">Saline</option>
-      <option value="3">Novigrad</option>
-      <option value="4">Umag</option>
-      <option value="5">SRC Mirna</option>
-      <option value="6">SC Franko Mileta</option>
-      <option value="7">SRC Veli Jože</option>
-      <option value="8">Dom sportvoa Mate Parlov</option>
-      <option value="9">Dom braće Ribar</option>
-      <option value="10">Sqash dvorana</option>
-      <option value="11">Dvorana Kaštelir, Labinci</option>
-      <option value="12">Školsko gradska dvorana Pazin</option>
-      <option value="13">SD Bale</option>
-    </select>
+    <div class="slog">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Odaberi ekipu</option>
+        <option value="1">Žatika</option>
+        <option value="2">Saline</option>
+        <option value="3">Novigrad</option>
+        <option value="4">Umag</option>
+        <option value="5">SRC Mirna</option>
+        <option value="6">SC Franko Mileta</option>
+        <option value="7">SRC Veli Jože</option>
+        <option value="8">Dom sportvoa Mate Parlov</option>
+        <option value="9">Dom braće Ribar</option>
+        <option value="10">Sqash dvorana</option>
+        <option value="11">Dvorana Kaštelir, Labinci</option>
+        <option value="12">Školsko gradska dvorana Pazin</option>
+        <option value="13">SD Bale</option>
+      </select>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Odaberi sportsku dvoranu</option>
+        <option value="1">Žatika</option>
+        <option value="2">Saline</option>
+        <option value="3">Novigrad</option>
+        <option value="4">Umag</option>
+        <option value="5">SRC Mirna</option>
+        <option value="6">SC Franko Mileta</option>
+        <option value="7">SRC Veli Jože</option>
+        <option value="8">Dom sportvoa Mate Parlov</option>
+        <option value="9">Dom braće Ribar</option>
+        <option value="10">Sqash dvorana</option>
+        <option value="11">Dvorana Kaštelir, Labinci</option>
+        <option value="12">Školsko gradska dvorana Pazin</option>
+        <option value="13">SD Bale</option>
+      </select>
+    </div>
     <div class="about">
       <table class="table">
         <thead>
@@ -78,8 +96,16 @@ export default {
   right: 30px;
   bottom: 50px;
   margin: 15px;
+  width: 10%;
+  height: 5%;
 }
 .about {
   margin: 40px;
+}
+.slog {
+  display: flex;
+}
+.form-select {
+  margin: 0 50px;
 }
 </style>
